@@ -8,12 +8,9 @@
  */
 int main(void)
 {
-
-  pid_t getpid();
-  pid_t getppid();
-
-  printf("Process ID: %d\n", getpid());
-
-  printf("Parent Process ID: %d\n", getppid());
-  return (0);
+pid_t getpid(void);
+pid_t getppid(void);
+printf("Process ID: %d\n", getpid());
+printf("Parent Process ID: %d\n", getppid());
+return (0);
 }
